@@ -1,0 +1,30 @@
+name: MyPlugin
+version: 1.0
+author: Kayou
+main: fr.myplugin.MyPlugin
+api-version: 1.21
+commands:
+  test:
+    description: Ceci est une commande de test
+    permission: test.use
+  help:
+    description: Permet d'afficher la liste des commandes disponibles
+    permission: help.use
+  citycreate:
+    description: Permet de créer une ville
+    permission: citycreate.use
+  cityedit:
+    description: Permet de modifier la ville
+    permission: cityedit.use
+  cityaccept:
+    description: Permet d'accepter une invitation d'une ville
+    permission: cityaccept.user
+  citydeny:
+    description: Permet de refuser une invitation d'une ville
+    permission: citydeny.use
+  cityclaim:
+    description: Claim le chunk actuel pour la ville.
+    permission: cityclaim.use
+  cityunclaim:
+    description: Unclaim le chunk actuel pour la ville.
+    permission: cityunclaim.use
